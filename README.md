@@ -10,12 +10,15 @@ All the codes are written in Matlab.
 sun_link_2.m用于计算幂级数系数；通道处于不同状态时的概率；不同状态的概率密度函数。
 Used to calculate power series coefficients; probabilities when the channel is in different states; probability density functions for different states.
 %%%%%
+
 revised_yangbenhanshu.m用于样本函数轨道。
 Used for sample function orbits.
 %%%%%%
+
 qianzhi_M.m用于计算不同膜面积情况下的幂级数系数。
 Used to calculate power series coefficients for different membrane area cases.
 %%%%%%%%%%%%%%%%%%%%%%%
+
 HOUZHI_M.m是根据qianzhi_M.m运行后得到的幂级数系数计算得到：膜电压跟通道状态协方差；电导的方差及均值；电压的方差及均值；通道的扩散功耗等。
 It is calculated based on the power series coefficients obtained after running qianzhi_M.m: the covariance of membrane voltage with the channel state; the variance and mean of conductance; the variance and mean of voltage; and the diffusion power consumption of the channel.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
